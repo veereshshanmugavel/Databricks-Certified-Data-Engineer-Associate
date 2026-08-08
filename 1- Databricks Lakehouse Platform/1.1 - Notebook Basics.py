@@ -39,7 +39,7 @@ print("Hello World!")
 # MAGIC
 # MAGIC Links (or Embedded HTML): <a href="https://docs.databricks.com/notebooks/notebooks-manage.html" target="_blank"> Managing Notebooks documentation</a>
 
-# COMMAND ----------
+# COMMAND ---------- To run the other notbook
 
 # MAGIC %run ../Includes/Setup
 
@@ -47,7 +47,7 @@ print("Hello World!")
 
 print(full_name)
 
-# COMMAND ----------
+# COMMAND ---------- To losit the Databricks sets
 
 # MAGIC %fs ls '/databricks-datasets'
 
