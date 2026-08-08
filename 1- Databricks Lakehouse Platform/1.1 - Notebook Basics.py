@@ -47,15 +47,15 @@ print("Hello World!")
 
 print(full_name)
 
-# COMMAND ---------- To losit the Databricks sets
+# COMMAND ---------- To list the Databricks sets
 
 # MAGIC %fs ls '/databricks-datasets'
 
-# COMMAND ----------
+# COMMAND ---------- Dbutilities
 
 dbutils.help()
 
-# COMMAND ----------
+# COMMAND ---------- 
 
 dbutils.fs.help()
 
@@ -64,7 +64,7 @@ dbutils.fs.help()
 files = dbutils.fs.ls('/databricks-datasets')
 print(files)
 
-# COMMAND ----------
+# COMMAND ---------- To print the details in good format
 
 display(files)
 
